@@ -20,6 +20,7 @@
 
 ## 5. 코드 실행 결과
 
+```python
 import requests
 
 response = requests.get("https://jsonplaceholder.typicode.con/posts/1")
@@ -27,8 +28,10 @@ response = requests.get("https://jsonplaceholder.typicode.con/posts/1")
 print("Status Code :", response.status_code)
 
 print("Response Body:", response.text)
+```
 
 #result
+
 (env_CS) jennifer@gimjiyun-ui-MacBookAir env_CS % /Users/jennifer/Desktop/python/TCA
 -CS-Jenn/env_CS/bin/python /Users/jennifer/Desktop/python/TCA-CS-Jenn/env_CS/hw.py
 /Users/jennifer/Desktop/python/TCA-CS-Jenn/env_CS/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
@@ -43,7 +46,7 @@ Response Body: {
 (env_CS) jennifer@gimjiyun-ui-MacBookAir env_CS % 
 
 ## 6. 문제 해결 과정 및 배운점
-#requests 모듈을 사용하는 것을 배웠다.
-#> 프로그램 작성 중 에러가 떴는데 글자 하나를 잘못 입력한 것이었다. 그래서 다시 고쳤더니 잘 작동되었다.
-#> 과제를 통해 배운 내용을 정리해 주세요.
-# import를 사용해서 모듈을 불러오는 것을 배웠다. 
+
+requests 모듈을 사용하는 것을 배웠다.
+프로그램 작성 중 에러가 떴는데 글자 하나를 잘못 입력한 것이었다. 그래서 다시 고쳤더니 잘 작동되었다.
+import를 사용해서 모듈을 불러오는 것을 배웠다. 
