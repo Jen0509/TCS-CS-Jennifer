@@ -2,7 +2,7 @@
 
 def add(a,b):
     return a + b
-add_result = add(10,5)
+add_result = add(2, 8)
 print(add_result)
 
 def sub(a,b):
