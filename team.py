@@ -29,4 +29,4 @@ if __name__ == "__main__":
     if user_response.strip() == "네":
         print("오늘 저녁 메뉴 추천:", dinner_list())
     else:
-        print("추천하지 않겠습니다. 좋은 저녁 되세요!")
+        print("좋은 저녁 되세요!")
